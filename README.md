@@ -16,4 +16,4 @@ Jest
 
 Supertest
 
-Husky - not implemented yet
+Husky - still not implemented
