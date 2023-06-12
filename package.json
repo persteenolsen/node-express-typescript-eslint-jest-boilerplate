@@ -7,8 +7,10 @@
     "dev": "nodemon ./src/index.ts",
     "build": "tsc",
 	"start": "node ./dist/index.js",
-    "lint": "eslint . --config eslintrc.json",
-    "lint:fix": "eslint . --fix --config eslintrc.json",
+    "lint:b": "eslint src/**/*.ts",
+    "lint:b:fix": "eslint src/**/*.ts --fix",
+    "lint:a": "eslint . --config eslintrc.json",
+	"lint:a:fix": "eslint . --fix --config eslintrc.json",
   	"pretty": "prettier --check \"src/**/*.ts\"",
 	"pretty:fix": "prettier --write \"src/**/*.ts\"",
     "test": "jest --coverage"
@@ -29,6 +31,27 @@
     "typescript": "^4.5.5",
     "supertest": "^6.2.2",
     "ts-jest": "^27.1.3"
+  },
+  "eslintConfig": {
+     
+	  "env": {
+	  
+      "commonjs": true,
+      "es2021": true,
+      "node": true
+	  
+     },
+  
+     "parser": "@typescript-eslint/parser",
+     "extends": [ "plugin:@typescript-eslint/recommended" ],
+ 
+     "rules": {
+        
+          "@typescript-eslint/no-inferrable-types": "warn",
+	      "@typescript-eslint/no-unused-vars": "error",
+	      "@typescript-eslint/no-explicit-any": "warn"
+		
+		}
   },
   "husky": {
     "hooks": {
