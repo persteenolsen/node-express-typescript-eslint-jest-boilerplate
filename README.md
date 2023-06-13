@@ -10,12 +10,16 @@ Express
 
 TypeScript
 
-Eslint - can be fired by the scripts:
+Eslint - can be fired by running the npm scripts by "npm run":
 
- - npm run lint:a src/**/*.ts -> loads the ESLint configuration by the section "eslintConfig" in package.json
- - npm run lint:a:fix . --config eslintrc.json loads the ESLint configuration by the eslintrc.json
- - npm run lint:b
- - npm run lint:b:fix
+ Use the ESLint configuration by the section "eslintConfig" in package.json
+ - "lint:b" : "eslint src/**/*.ts"
+ - "lint:b:fix" : "eslint src/**/*.ts --fix"
+
+Use the ESLint configuration by the eslintrc.json file
+ - "lint:a" : "eslint  . --config eslintrc.json"
+ - "lint:a:fix" : "eslint . --fix --config eslintrc.json"
+ 
 
 Prettier
 
