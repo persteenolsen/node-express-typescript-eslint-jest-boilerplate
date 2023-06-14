@@ -13,13 +13,13 @@ app.get('/', async (req: Request, res: Response): Promise<Response> => {
   });
 });
 
-// Testing if ts type chekking is enabled...
+// Testing if ts type checking is enabled...
 let myString = 'This is my string';
 
-// Will pass ts type chekking even if "transpileOnly": true is disabled in tsconfig !
+// Will always pass ts type checking with or without "transpileOnly": true in tsconfig !
 myString = 'String updated...';
 
-// Will NOT pass ts type chekking unless  "transpileOnly": true in tsconfig !
+// Will only pass ts type checking if "transpileOnly": true is enabled in tsconfig !
 //myString = 40;
 
 app.post('/post', async (req: Request, res: Response): Promise<Response> => {
