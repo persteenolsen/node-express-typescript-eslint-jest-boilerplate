@@ -1,6 +1,6 @@
 ## Description of the project
 
-Developed in a Node 14 envirement
+Developed in a Node 14 environment
 
 A boilerplate readdy to serve:
 
