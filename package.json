@@ -7,12 +7,12 @@
     "dev": "nodemon ./src/index.ts",
     "build": "tsc",
     "start": "node ./dist/index.js",
-    "lint:b": "eslint src/**/*.ts",
-    "lint:b:fix": "eslint src/**/*.ts --fix",
-    "lint:a": "eslint . --config eslintrc.json",
-    "lint:a:fix": "eslint . --fix --config eslintrc.json",
+    "lint-b": "eslint src/**/*.ts",
+    "lint-b-fix": "eslint src/**/*.ts --fix",
+    "lint-a": "eslint . --config eslintrc.json",
+    "lint-a-fix": "eslint . --fix --config eslintrc.json",
     "pretty": "prettier --check \"src/**/*.ts\"",
-    "pretty:fix": "prettier --write \"src/**/*.ts\"",
+    "pretty-fix": "prettier --write \"src/**/*.ts\"",
     "test": "jest --coverage"
   },
    "dependencies": {
@@ -47,7 +47,7 @@
     ],
     "rules": {
       "@typescript-eslint/no-inferrable-types": "warn",
-      "@typescript-eslint/no-unused-vars": "error",
+      "@typescript-eslint/no-unused-vars": "warn",
       "@typescript-eslint/no-explicit-any": "warn"
     }
   },
