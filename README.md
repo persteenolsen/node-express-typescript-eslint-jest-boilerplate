@@ -2,11 +2,11 @@
 
 The Application was developed in a Node 14 environment
 
-For local developement run the npm scripts using "npm run":
+For local developement run the npm scripts by "npm run":
 
- - "dev": "nodemon ./src/index.ts
+ - "dev": "nodemon ./src/index.ts"
  
-To make a prodduction build run the npm scripts using "npm run":
+To make a production build run the npm script by "npm run":
 
  -  "build": "tsc"
  
@@ -14,16 +14,16 @@ To start the production build locally run the npm scripts using "npm run":
 
  - "start": "node ./dist/index.js"
 
-Jest and Supertest - can be fired by running the npm scripts using "npm run":
+Jest and Supertest can be fired by running the npm script using "npm run":
 
  - "test": "jest --coverage"
 
-Prettier - can be fired by running the npm scripts using "npm run":
+Prettier can be fired by running the npm scripts using "npm run":
 
  - "pretty-fix": "prettier --write \"src/**/*.ts\"" 
  - "pretty": "prettier --check \"src/**/*.ts\""
 
-Eslint - can be fired by running the npm scripts using "npm run":
+Eslint can be fired by running the npm scripts using "npm run":
 
  Use the ESLint configuration by the section "eslintConfig" in package.json
  - "lint-b" : "eslint src/**/*.ts"
