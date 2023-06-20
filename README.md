@@ -2,15 +2,15 @@
 
 The Application was developed in a Node 14 environment
 
-For local developement run the npm scripts by "npm run":
+For local development run the npm script by "npm run":
 
  - "dev": "nodemon ./src/index.ts"
  
-To make a production build run the npm script by "npm run":
+To make a production build run the npm scrip by "npm run":
 
  -  "build": "tsc"
  
-To start the production build locally run the npm scripts using "npm run":
+To start the production build locally run the npm script using "npm run":
 
  - "start": "node ./dist/index.js"
 
