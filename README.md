@@ -1,22 +1,29 @@
-## Description of the project
+## A Node.js Express App with TypeScript, Jest, Supertest, ESLint and Prettier
 
-Developed in a Node 14 environment
+The Application was developed in a Node 14 environment
 
-A boilerplate ready to serve:
+For local developement run the npm scripts using "npm run":
 
-Node.js
+ - "dev": "nodemon ./src/index.ts
+ 
+To make a prodduction build run the npm scripts using "npm run":
 
-Express
+ -  "build": "tsc"
+ 
+To start the production build locally run the npm scripts using "npm run":
 
-TypeScript
+ - "start": "node ./dist/index.js"
 
-Prettier
+Jest and Supertest - can be fired by running the npm scripts using "npm run":
 
-Jest 
+ - "test": "jest --coverage"
 
-Supertest
+Prettier - can be fired by running the npm scripts using "npm run":
 
-Eslint - can be fired by running the npm scripts by "npm run":
+ - "pretty-fix": "prettier --write \"src/**/*.ts\"" 
+ - "pretty": "prettier --check \"src/**/*.ts\""
+
+Eslint - can be fired by running the npm scripts using "npm run":
 
  Use the ESLint configuration by the section "eslintConfig" in package.json
  - "lint-b" : "eslint src/**/*.ts"
