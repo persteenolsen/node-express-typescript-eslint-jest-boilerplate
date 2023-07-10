@@ -42,6 +42,7 @@ Husky - still not implemented
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [ts-node](https://typestrong.org/ts-node/)
 - [Jest](https://jestjs.io/)
 - [SuperTest](https://github.com/ladjs/supertest#readme/)
 - [ESLint](https://eslint.org/)
