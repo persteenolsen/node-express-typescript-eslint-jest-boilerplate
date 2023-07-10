@@ -48,3 +48,19 @@ Husky - still not implemented
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
+# Dependencies - NPM
+
+- [express](https://www.npmjs.com/package/express/)
+
+# devDependencies - NPM
+
+- [typescript](https://www.npmjs.com/package/typescript/)
+- [jest](https://www.npmjs.com/package/jest/)
+- [supertest](https://www.npmjs.com/package/supertest/)
+- [eslint](https://www.npmjs.com/package/eslint/)
+- [prettier](https://www.npmjs.com/package/prettier/)
+- [ts-node](https://www.npmjs.com/package/ts-node/)
+- [ts-jest](https://www.npmjs.com/package/ts-jest/)
+- [nodemon](https://www.npmjs.com/package/nodemon/)
+
+Take a look at the package json for the @types NPM packages 
