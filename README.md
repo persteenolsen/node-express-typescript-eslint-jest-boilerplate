@@ -2,6 +2,8 @@
 
 The Application was developed in a Node 14 environment
 
+# Usage
+
 For local development run the npm script by "npm run":
 
  - "dev": "nodemon ./src/index.ts"
@@ -34,4 +36,14 @@ Use the ESLint configuration by the eslintrc.json file
  - "lint-a-fix" : "eslint . --fix --config eslintrc.json"
 
 Husky - still not implemented
+
+# Features
+
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
+- [SuperTest](https://github.com/ladjs/supertest#readme/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
