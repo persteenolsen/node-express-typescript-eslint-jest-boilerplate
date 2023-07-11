@@ -4,32 +4,40 @@ The Application was developed in a Node 14 environment
 
 # Usage
 
-For local development run the npm script by "npm run":
+Installing
+
+- Make sure you have a new version of Node installed
+- Download the code by zip or fork
+- Run the command npm install by the command promt
+
+For local development run the npm script by "npm run dev":
 
  - "dev": "nodemon ./src/index.ts"
  
-To make a production build run the npm scrip by "npm run":
+To make a production build run the npm scrip by "npm run build":
 
  -  "build": "tsc"
  
-To start the production build locally run the npm script using "npm run":
+To start the production build locally run the npm script using "npm run start":
 
  - "start": "node ./dist/index.js"
 
-Jest and Supertest can be fired by running the npm script using "npm run":
+Jest and Supertest can be fired by running the npm script using "npm run test":
 
  - "test": "jest --coverage"
 
-Prettier can be fired by running the npm scripts using "npm run":
+Prettier can be fired by running the npm scripts using "npm run pretty-fix" and "npm run pretty":
 
  - "pretty-fix": "prettier --write \"src/**/*.ts\"" 
  - "pretty": "prettier --check \"src/**/*.ts\""
 
-Eslint can be fired by running the npm scripts using "npm run":
+Eslint ( package.json ) can be fired by "npm run lint-b" and "npm run lint-b-fix":
 
  Use the ESLint configuration by the section "eslintConfig" in package.json
  - "lint-b" : "eslint src/**/*.ts"
  - "lint-b-fix" : "eslint src/**/*.ts --fix"
+ 
+Eslint ( eslintrc.json ) can be fired by "npm run lint-a" and "npm run lint-a-fix":
 
 Use the ESLint configuration by the eslintrc.json file
  - "lint-a" : "eslint  . --config eslintrc.json"
