@@ -8,7 +8,7 @@ Installing
 
 - Make sure you have a new version of Node installed
 - Download the code by zip or fork
-- Run the command npm install by the command promt
+- Run the command "npm install" by the command promt
 
 For local development run the npm script by "npm run dev":
 
