@@ -1,6 +1,8 @@
 ## A Node.js Express App with TypeScript, Jest, Supertest, ESLint and Prettier
 
-The Application was developed in a Node 14 environment
+The Boilerplate was developed in a Node 14 environment
+
+This boilerplate serve as a starter for developing and testing 
 
 # Usage
 
