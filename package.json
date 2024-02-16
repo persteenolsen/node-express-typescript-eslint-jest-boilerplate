@@ -15,7 +15,7 @@
     "pretty-fix": "prettier --write \"src/**/*.ts\"",
     "test": "jest --coverage"
   },
-   "dependencies": {
+  "dependencies": {
     "express": "^4.17.3"
   },
   "devDependencies": {
@@ -56,5 +56,8 @@
       "pre-commit": "yarn lint",
       "pre-push": "yarn test"
     }
+  },
+  "volta": {
+    "node": "14.21.3"
   }
 }

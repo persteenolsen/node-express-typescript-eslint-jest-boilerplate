@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', async (req: Request, res: Response): Promise<Response> => {
   return res.status(200).send({
-    message: 'Hello World - Last updated: 22-09-2023!',
+    message: 'Hello World - Last updated: 16-02-2024!',
   });
 });
 
